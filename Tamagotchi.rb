@@ -9,7 +9,6 @@ class Tamagotchi
     @sonin = sonin
   end
   def el_sono
-    infos
     puts "escolha uma das opções:"
     puts "1) dormir\n2) Permanecer acordado"
     escolha = gets.chomp
@@ -33,7 +32,6 @@ class Tamagotchi
   end
 
   def el_fome
-    infos
     puts "escolha uma das opções:"
     puts "1) Comer muito \n2) Comer pouco \n3) Não comer"
     escolha = gets.chomp
@@ -52,7 +50,6 @@ class Tamagotchi
     end
   end
   def el_entediado
-    infos
     puts "escolha uma das opções:"
     puts "1) Correr 10 minutos \n2) Caminhar 10 minutos"
     escolha = gets.chomp

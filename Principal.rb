@@ -6,6 +6,7 @@ class Main
   tama = Tamagotchi.new(nome)
   vivo = true
   while vivo
+    tama.infos
     num_aleatorio = rand(1..3)
     case num_aleatorio
     when 1
